@@ -14,3 +14,7 @@
 -Sección de Testimonios
 
 ![Sección De Testimonios](/img/Sessión%20de%20testimonios.png)
+
+-Pie De Página y diseño para cualquier pantalla
+
+![Pie De Página](/img/pie%20de%20pagina.png)
