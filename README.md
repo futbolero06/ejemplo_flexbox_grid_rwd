@@ -10,3 +10,7 @@
 -Area Intermedia
 
 ![Area_Intermedia](/img/Area_Intermedia.png)
+
+-Sección de Testimonios
+
+![Sección De Testimonios](/img/Sessión%20de%20testimonios.png)
