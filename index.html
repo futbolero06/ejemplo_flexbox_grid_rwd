@@ -93,6 +93,64 @@ p {
   color: pink;
   border-bottom: 3px solid pink;
 }
+.showcase {
+  height: 300px;
+  background-color: pink;
+}
+
+/* Añade margen bajo el texto */
+.showcase p {
+  margin-bottom: 30px;
+}
+
+/* Añade una sombra bajo la imágen */
+.showcase img {
+  box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+}
+
+/* Añade algo de padding al contenido del formulario */
+.showcase-form {
+  padding-left: 7px;
+}
+.grid {
+  overflow: visible;
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.grid-item-1,
+.grid-item-2 {
+  position: relative;
+  top: 50px;
+}
+.showcase input[type='email'] {
+  padding: 10px 70px 10px 0;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 6px;
+}
+
+.btn {
+  border-radius: 6px;
+  padding: 12px 20px;
+  background: #9867C5;
+  border: none;
+  margin-left: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.showcase-form {
+  margin: auto;
+}
+
+/* Change typeface and its size */
+.little-info {
+  font-size: 15px;
+  font-family: "poppins", sans-serif;
+
+}
     </style>
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
@@ -110,6 +168,31 @@ p {
         </div>
       </div>
 
+      <section class="showcase">
+        <div class="container">
+            <div class="grid">
+              <div class="grid-item-1">
+                <div class="showcase-text">
+                  <h1>encuentra cualquier hotel de la región guanentina</h1>
+                  <p class="supporting-text"> más de 100 hoteles
+                </div>
+                <div class="showcase-form">
+                  <form action="">
+                    <input type="email" placeholder="Ingresa tu correo electrónico">
+                    <input type="submit" class="btn" value="Comienza a buscar hoteles">
+                  </form>
+                  <p class="little-info">Encuentra tu hotel favorito</p>
+                </div>
+              </div>
 
+              <div class="grid-item-2">
+                <div class="image">
+                  <img src="./img/transparent.png" alt="">
+                </div>
+              </div>
+           </div>
+
+        </div>
+      </section>
 </body>
 </html>
